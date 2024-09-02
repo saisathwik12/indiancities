@@ -23,18 +23,18 @@
   }
 section{
 
-    align-items: center;
+    align-content: center;
     
 
 }
 
-.card {
+/* .card {
 
     border: 3px solid #ccc;
     border-radius: 10px;
     padding: 20px;
     margin: 70px;
-    width: 300px; /* Adjust the width as needed */
+    width: 300px; 
     display: inline-block;
     box-shadow: 10px 10px 15px black ;
     text-align: center;
@@ -49,15 +49,17 @@ section{
     font-size:larger;
     text-align: center;
     font-family: luminari,cursive;
-}
+} */
 
-.card1 {
+
+
+/* .card1 {
 
     border: 3px solid #ccc;
     border-radius: 10px;
     padding: 20px;
     margin: 70px;
-    width: 300px; /* Adjust the width as needed */
+    width: 300px; 
     display: inline-block;
     box-shadow: 10px 10px 15px black ;
     text-align: center;
@@ -77,4 +79,58 @@ section{
   
   .card1:hover{
     background-color: antiquewhite;
+  }
+ */
+
+table{
+  border: 0px outset rgb(255, 255, 255);
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  
+  
+  
+}
+
+td{
+  border: 3px outset rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px black ;
+  font-size:larger;
+  text-align: center;
+  font-family: luminari,cursive;
+  background-color: white;
+
+}
+
+td:hover{
+  background-color: rgba(222, 222, 255, 0.685);
+  
+}
+
+
+
+  footer{
+    font-size: large;
+    color: azure;
+    background-color: rgba(31, 31, 31, 0.97);
+    padding: 100px;
+    
+    
+
+  }
+
+  footer h2{
+
+    margin: 0 auto;
+    margin: 0% auto;
+    padding: 0;
+  }
+  footer a{
+    color: azure;
+    text-decoration: none;
+    
+  }
+  footer p{
+    display: inline;
   }
